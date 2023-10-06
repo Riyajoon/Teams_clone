@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.png" >
+    <title>Meet</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="main">
+    <header>
+        <div class="navbar">
+          <nav>
+            <ul class="navigation">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="/meet">Meet</a></li>
+              <li><a href="/chat">Chat</a></li>
+              <li><a href="/feedback">Feedback</a></li>
+              <li><a href="/about">About</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="clearfix"></div>
+      </header>
+      <!-- meeting interface -->
+      <div>
+      <table class="details">
+        <tr>
+            <td>
+                <table cellspacing="70px">
+                    <tr>
+                        <td>
+                            <table class="join-details">
+                                <tr>
+                                    <td><lable form="meet link">Meet link:</lable></td>
+                                    <td><input type="text" id="meet-link" name="link-join" placeholder="02a9-9naok-472hn-nsc3" required /></td>
+                                </tr>
+                            </table>
+                            <br/>
+                            <button class="join-button" type="button" name="Join" onclick="joinMeet()">
+                                <a href="#">Join Meet</a>
+                              </button>
+                            </td>
+                            <td><div class="vl"></div></td>
+                            <td>
+                                <div class="create-details">
+                                    <button class="create-button" type="button" name="Create" id="create-meet" onclick="generateMeetlink()"> <a href="#">Create Meet</a></button>
+                                </div>
+                            </td>
+                        </td>
+                    </form>
+                    <td>
+                        <img class="image" src="img/circle.png" alt="Image">
+                    </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+      </table>
+    </div>
+    
+</body>
+</html>
